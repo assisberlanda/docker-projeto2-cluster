@@ -4,3 +4,8 @@
 - Todas as MV deverão possuir o Docker pré-instalado;
 - ⁠A máquina com o nome de master deverá ser o nó manager do cluster.
 - As demais máquinas deverão ser incluídas no cluster swarm como workers.
+### Instalar o Kubectl
+Instalação - [Site Kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/)
+
+    curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/darwin/amd64/kubectl"
+   
